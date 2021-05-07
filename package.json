@@ -1,0 +1,26 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "How to use raw webrtc. Not with library or some framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "dev": "nodemon -e ts --watch ./index.ts --exec \"yarn build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabroor007/webrtc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabroor007/webrtc/issues"
+  },
+  "homepage": "https://github.com/mabroor007/webrtc#readme",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.4"
+  }
+}
